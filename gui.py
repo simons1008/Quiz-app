@@ -30,7 +30,7 @@ class QuizApp:
 
         self.option_buttons = []
         for key in ["A", "B", "C", "D"]:
-            btn = tk.Button(self.master, text="", width=40, font=("Arial", 12),
+            btn = tk.Button(self.master, text="", width=40, bg="wheat1", font=("Arial", 12),
                             command=lambda k=key: self.check_answer(k))
             btn.pack(pady=5)
             self.option_buttons.append(btn)
@@ -39,13 +39,17 @@ class QuizApp:
         self.output_box = tk.Label(self.master, textvariable=self.output_text, font=("Arial", 14))
         self.output_box.pack(pady=20)
 
-        self.ok_btn = tk.Button(self.master, text="OK", bg="green", font=("Arial", 14), command=self.show_question)
+        self.ok_btn = tk.Button(self.master, text="OK", bg="lawn green", font=("Arial", 14), command=self.show_question)
         self.ok_btn.pack(pady=5)
         self.ok_btn["state"] = "disabled"
 
     def show_question(self):
         self.output_text.set("")      
         self.ok_btn["state"] = "disabled"
+        # enable answer
+        for i in range(len(["A", "B", "C", "D"])):
+            self.option_buttons[i]["state"] = "normal"
+
         if self.question_index < len(self.questions):
             q = self.questions[self.question_index]
             self.question_label.config(text=f"Q{self.question_index + 1}: {q['question']}")
@@ -56,9 +60,12 @@ class QuizApp:
             self.show_result()
 
     def check_answer(self, selected_option):
+        # disable answer
+        for i in range(len(["A", "B", "C", "D"])):
+            self.option_buttons[i]["state"] = "disabled"
         correct = self.questions[self.question_index]["answer"]
         if selected_option == correct:
-            self.output_text.set("✅ Correct!")
+            self.output_text.set("✅ Your answer: " + correct + " is correct!")
             self.score += 1
         else:
             self.output_text.set("❌ Wrong. Correct answer was: " + correct)
