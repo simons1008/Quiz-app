@@ -21,7 +21,7 @@ class QuizApp:
             with open("questions.json", "r", encoding="utf-8") as f:
                 self.questions = json.load(f)
         except Exception as e:
-            messagebox.showerror("Error", f"Failed to load questions: {e}")
+            messagebox.showerror("Fehler", f"Die Fragen konnten nicht geladen werden: {e}")
             self.master.quit()
 
     def create_widgets(self):
@@ -46,9 +46,6 @@ class QuizApp:
     def show_question(self):
         self.output_text.set("")      
         self.ok_btn["state"] = "disabled"
-        # enable answer
-        for i in range(len(["A", "B", "C", "D"])):
-            self.option_buttons[i]["state"] = "normal"
 
         if self.question_index < len(self.questions):
             q = self.questions[self.question_index]
@@ -56,6 +53,8 @@ class QuizApp:
 
             for i, key in enumerate(["A", "B", "C", "D"]):
                 self.option_buttons[i].config(text=f"{key}. {q['options'][key]}")
+                # enable answer
+                self.option_buttons[i]["state"] = "normal"
         else:
             self.show_result()
 
@@ -65,25 +64,25 @@ class QuizApp:
             self.option_buttons[i]["state"] = "disabled"
         correct = self.questions[self.question_index]["answer"]
         if selected_option == correct:
-            self.output_text.set("✅ Your answer: " + correct + " is correct!")
+            self.output_text.set("✅ Deine Antwort: " + correct + " ist richtig!")
             self.score += 1
         else:
-            self.output_text.set("❌ Wrong. Correct answer was: " + correct)
+            self.output_text.set("❌ Falsch. Die richtige Antwort ist: " + correct)
         self.ok_btn["state"] = "normal"
         self.question_index += 1
 
     def show_result(self):
         percentage = (self.score / len(self.questions)) * 100
-        msg = f"✅ Score: {self.score} / {len(self.questions)}\n🧮 Percentage: {percentage:.1f}%"
+        msg = f"✅ Ergebnis: {self.score} / {len(self.questions)}\n🧮 Percentage: {percentage:.1f}%"
 
         if percentage == 100:
-            msg += "\n🎉 Perfect score!"
+            msg += "\n🎉 Perfekt!"
         elif percentage >= 70:
-            msg += "\n👍 Great job!"
+            msg += "\n👍 Gut gemacht!"
         else:
-            msg += "\n📘 Keep practicing!"
+            msg += "\n📘 Übe weiter!"
 
-        messagebox.showinfo("Quiz Completed", msg)
+        messagebox.showinfo("Quiz beendet", msg)
         self.master.quit()
 
 if __name__ == "__main__":

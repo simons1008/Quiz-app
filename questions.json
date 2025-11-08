@@ -1,6 +1,6 @@
 [
     {
-        "question": "What is the output of print(2 ** 3)?",
+        "question": "Was ist die Ausgabe von: print(2 ** 3)?",
         "options": {
             "A": "6",
             "B": "8",
@@ -10,7 +10,7 @@
         "answer": "B"
     },
     {
-        "question": "Which of these is a mutable data type in Python?",
+        "question": "Welcher ist ein 'mutable data type' in Python?",
         "options": {
             "A": "Tuple",
             "B": "String",
@@ -20,7 +20,7 @@
         "answer": "C"
     },
     {
-        "question": "What keyword is used to define a function in Python?",
+        "question": "Welches Schlüsselwort definiert eine Function in Python?",
         "options": {
             "A": "func",
             "B": "define",
@@ -30,7 +30,7 @@
         "answer": "D"
     },
     {
-        "question": "Which symbol is used for comments in Python?",
+        "question": "Welches Zeichen verwendet man für einen Kommentar in Python?",
         "options": {
             "A": "//",
             "B": "/* */",
@@ -40,7 +40,7 @@
         "answer": "C"
     },
     {
-        "question": "What is the output of: print('5' + '3')?",
+        "question": "Was ist die Ausgabe von: print('5' + '3')?",
         "options": {
             "A": "8",
             "B": "53",
@@ -50,7 +50,7 @@
         "answer": "B"
     },
     {
-        "question": "Which function is used to get the length of a list?",
+        "question": "Welche Funktion liefert die Länge einer Liste in Python?",
         "options": {
             "A": "count()",
             "B": "len()",
@@ -60,7 +60,7 @@
         "answer": "B"
     },
     {
-        "question": "How do you start a for loop in Python?",
+        "question": "Wie startet man eine for Schleife in Python?",
         "options": {
             "A": "loop i in range(5)",
             "B": "for i to 5",
@@ -70,7 +70,7 @@
         "answer": "C"
     },
     {
-        "question": "What is the output of print(type(3.14))?",
+        "question": "Was ist die Ausgabe von: print(type(3.14))?",
         "options": {
             "A": "<class 'int'>",
             "B": "<class 'double'>",
@@ -80,7 +80,7 @@
         "answer": "C"
     },
     {
-        "question": "How do you create a dictionary in Python?",
+        "question": "Wie erzeugt man ein dictionary in Python?",
         "options": {
             "A": "[]",
             "B": "()",
@@ -90,7 +90,7 @@
         "answer": "C"
     },
     {
-        "question": "Which of the following raises a syntax error?",
+        "question": "Welche Zeile führt zu einem syntax error?",
         "options": {
             "A": "x = 5",
             "B": "if True:",
@@ -100,7 +100,7 @@
         "answer": "C"
     },
     {
-        "question": "How do you open a file in read mode?",
+        "question": "Wie öffnet man eine Datei im read Mode?",
         "options": {
             "A": "open('file.txt', 'r')",
             "B": "read('file.txt')",
@@ -110,7 +110,7 @@
         "answer": "A"
     },
     {
-        "question": "What is the output of bool(0)?",
+        "question": "Was ist das Ergebnis von bool(0)?",
         "options": {
             "A": "True",
             "B": "False",
@@ -120,7 +120,7 @@
         "answer": "B"
     },
     {
-        "question": "Which keyword is used to handle exceptions?",
+        "question": "Welches Schlüsselwort benutzt man für die Behandlung von exceptions?",
         "options": {
             "A": "throw",
             "B": "catch",
@@ -130,17 +130,17 @@
         "answer": "D"
     },
     {
-        "question": "What does the 'pass' statement do?",
+        "question": "Was macht das 'pass' statement?",
         "options": {
-            "A": "Skips iteration",
-            "B": "Stops a loop",
-            "C": "Does nothing",
-            "D": "Throws error"
+            "A": "Überspringt die Iteration",
+            "B": "Beendet eine Schleife",
+            "C": "Macht nichts",
+            "D": "Meldet einen Fehler"
         },
         "answer": "C"
     },
     {
-        "question": "Which module is used to work with dates and times?",
+        "question": "Mit welchem Modul arbeitet man mit Datum und Zeit?",
         "options": {
             "A": "datetime",
             "B": "dateutils",
