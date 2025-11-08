@@ -6,7 +6,7 @@ class QuizApp:
     def __init__(self, master):
         self.master = master
         self.master.title("🧠 Python Quiz")
-        self.master.geometry("500x350")
+        self.master.geometry("500x400")
         self.master.resizable(False, False)
 
         self.question_index = 0
@@ -25,7 +25,7 @@ class QuizApp:
             self.master.quit()
 
     def create_widgets(self):
-        self.question_label = tk.Label(self.master, text="", wraplength=400, font=("Arial", 14), pady=20)
+        self.question_label = tk.Label   (self.master, text="", wraplength=400, font=("Arial", 14), pady=20)
         self.question_label.pack()
 
         self.option_buttons = []
@@ -35,7 +35,17 @@ class QuizApp:
             btn.pack(pady=5)
             self.option_buttons.append(btn)
 
+        self.output_text = tk.StringVar()
+        self.output_box = tk.Label(self.master, textvariable=self.output_text, font=("Arial", 14))
+        self.output_box.pack(pady=20)
+
+        self.ok_btn = tk.Button(self.master, text="OK", bg="green", font=("Arial", 14), command=self.show_question)
+        self.ok_btn.pack(pady=5)
+        self.ok_btn["state"] = "disabled"
+
     def show_question(self):
+        self.output_text.set("")      
+        self.ok_btn["state"] = "disabled"
         if self.question_index < len(self.questions):
             q = self.questions[self.question_index]
             self.question_label.config(text=f"Q{self.question_index + 1}: {q['question']}")
@@ -48,10 +58,12 @@ class QuizApp:
     def check_answer(self, selected_option):
         correct = self.questions[self.question_index]["answer"]
         if selected_option == correct:
+            self.output_text.set("✅ Correct!")
             self.score += 1
-
+        else:
+            self.output_text.set("❌ Wrong. Correct answer was: " + correct)
+        self.ok_btn["state"] = "normal"
         self.question_index += 1
-        self.show_question()
 
     def show_result(self):
         percentage = (self.score / len(self.questions)) * 100

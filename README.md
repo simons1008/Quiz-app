@@ -18,6 +18,14 @@ Both versions use the same question data stored in `questions.json`.
 
 ---
 
+## GUI version extended 
+
+- increase window size
+- display check_answer() result in  output box
+- OK button switches to next question
+
+---
+
 ## Getting Started
 
 ### Requirements
