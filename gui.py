@@ -6,7 +6,7 @@ class QuizApp:
     def __init__(self, master):
         self.master = master
         self.master.title("🧠 Python Quiz")
-        self.master.geometry("500x400")
+        self.master.geometry("750x600")
         self.master.resizable(False, False)
 
         self.question_index = 0
@@ -25,22 +25,22 @@ class QuizApp:
             self.master.quit()
 
     def create_widgets(self):
-        self.question_label = tk.Label   (self.master, text="", wraplength=400, font=("Arial", 14), pady=20)
+        self.question_label = tk.Label   (self.master, text="", height=2, wraplength=600, font=("Arial", 22), pady=30)
         self.question_label.pack()
 
         self.option_buttons = []
         for key in ["A", "B", "C", "D"]:
-            btn = tk.Button(self.master, text="", width=40, bg="wheat1", font=("Arial", 12),
+            btn = tk.Button(self.master, text="", width=40, bg="wheat1", font=("Arial", 18),
                             command=lambda k=key: self.check_answer(k))
-            btn.pack(pady=5)
+            btn.pack(pady=10)
             self.option_buttons.append(btn)
 
         self.output_text = tk.StringVar()
-        self.output_box = tk.Label(self.master, textvariable=self.output_text, font=("Arial", 14))
-        self.output_box.pack(pady=20)
+        self.output_box = tk.Label(self.master, textvariable=self.output_text, font=("Arial", 18))
+        self.output_box.pack(pady=30)
 
-        self.ok_btn = tk.Button(self.master, text="OK", bg="lawn green", font=("Arial", 14), command=self.show_question)
-        self.ok_btn.pack(pady=5)
+        self.ok_btn = tk.Button(self.master, text="OK", bg="lawn green", font=("Arial", 18), command=self.show_question)
+        self.ok_btn.pack(pady=10)
         self.ok_btn["state"] = "disabled"
 
     def show_question(self):
