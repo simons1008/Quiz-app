@@ -60,12 +60,12 @@
         "answer": "D"
     },
     {
-        "question": "Was passiert bei der Programmzeile\nenglisch_deutsch = {'cat': 'Katze'}?",
+        "question": "Was entsteht durch die Programmzeile:\nenglisch_deutsch = {'cat': 'Katze'}?",
         "options": {
-            "A": "Der Schlüssel 'Katze' erhält den Wert 'cat'",
-            "B": "Der Schlüssel 'cat' erhält den Wert 'Katze'",
+            "A": "Dictionary mit Schlüssel 'Katze' und Wert 'cat'",
+            "B": "Dictionary mit Schlüssel 'cat' und Wert 'Katze'",
             "C": "Error",
-            "D": "Es wird kein Dictionary angelegt"
+            "D": "Es entsteht kein Dictionary"
         },
         "answer": "B"
     },
