@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Wozu verwenden wir die IDLE Shell?",
+        "options": {
+            "A": "Um Programme zu schreiben und zu speichern",
+            "B": "Auf meinem PC gibt es keine IDLE Shell",
+            "C": "Wir verwenden die IDLE Shell gar nicht",
+            "D": "Um Programmzeilen zu testen"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Was ist die Ausgabe von: print('5' + '3')?",
+        "options": {
+            "A": "8",
+            "B": "53",
+            "C": "Error",
+            "D": "15"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Was ist die Ausgabe von: \nprint('zahl =', zahl)?",
+        "options": {
+            "A": "Error",
+            "B": "zahl = 53",
+            "C": "zahl =",
+            "D": "53"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Welches Zeichen verwendet man für einen Kommentar in Python?",
+        "options": {
+            "A": "//",
+            "B": "/* */",
+            "C": "#",
+            "D": "--"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Wie erhalte ich 'Axel' aus der Liste: \nvornamen = ['Axel', 'Elke', 'Martin']?",
+        "options": {
+            "A": "vornamen[1]",
+            "B": "vornamen[0]",
+            "C": "vornamen[-1]",
+            "D": "vornamen"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Welche Zeile erzeugt ein Tupel?",
+        "options": {
+            "A": "[1, 2, 3]",
+            "B": "tuple(1, 2, 3)",
+            "C": "mein_tuple = [1, 2, 3]",
+            "D": "mein_tuple = (1, 2, 3)"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Was passiert bei der Programmzeile\nenglisch_deutsch = {'cat': 'Katze'}?",
+        "options": {
+            "A": "Der Schlüssel 'Katze' erhält den Wert 'cat'",
+            "B": "Der Schlüssel 'cat' erhält den Wert 'Katze'",
+            "C": "Error",
+            "D": "Es wird kein Dictionary angelegt"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Mit welchem Befehl fragt der Computer nach deinem Namen?",
+        "options": {
+            "A": "input('Dein Name: ')",
+            "B": "read('Dein Name: ')",
+            "C": "get('Dein Name: ')",
+            "D": "Input('Dein Name: ')"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Was ist die Ausgabe von print(3 >= 3)",
+        "options": {
+            "A": "Error",
+            "B": "False",
+            "C": "True",
+            "D": "3"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Mit welchen Befehlen unterscheidet der Computer 3 und mehr Fälle?",
+        "options": {
+            "A": "if else else",
+            "B": "if  else if  else",
+            "C": "if  elif  else",
+            "D": "Der Computer kann nur 2 Fälle  unterscheiden"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Was gilt für alle Befehle, die zu einer Bedingung gehören?",
+        "options": {
+            "A": "Sie sind in {  } eingeschlossen",
+            "B": "Sie sind um 4 Zeichen eingerückt",
+            "C": "Sie sind um 2 Zeichen eingerückt",
+            "D": "Sie sind in begin  end eingeschlossen"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Wie startet man eine for Schleife in Python?",
+        "options": {
+            "A": "loop i in range(5)",
+            "B": "for i to 5",
+            "C": "for i in range(5):",
+            "D": "foreach i in 5"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Welches Schlüsselwort definiert eine Funktion in Python?",
+        "options": {
+            "A": "func",
+            "B": "def",
+            "C": "function",
+            "D": "define"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Mit welchem Schlüsselwort gibt eine Funktion einen Wert zurück",
+        "options": {
+            "A": "return",
+            "B": "pass",
+            "C": "forward",
+            "D": "pipe"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Welche Zeile definiert eine Funktion mit 1 Input und 1 Output?",
+        "options": {
+            "A": "def verdoppeln():",
+            "B": "def verdoppeln(in, out):",
+            "C": "def verdoppeln:",
+            "D": "def verdoppeln(wert: int) -> int:"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Wie definiere ich eine Funktion gemäß der Konstruktionsanleitung?",
+        "options": {
+            "A": "Name - Input: Datentyp - Output: Datentyp",
+            "B": "Name",
+            "C": "Name - Input",
+            "D": "Name - Output"
+        },
+        "answer": "A"
+    }
+]

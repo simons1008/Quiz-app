@@ -18,7 +18,7 @@ class QuizApp:
 
     def load_questions(self):
         try:
-            with open("questions.json", "r", encoding="utf-8") as f:
+            with open("questions2.json", "r", encoding="utf-8") as f:
                 self.questions = json.load(f)
         except Exception as e:
             messagebox.showerror("Fehler", f"Die Fragen konnten nicht geladen werden: {e}")
@@ -73,7 +73,7 @@ class QuizApp:
 
     def show_result(self):
         percentage = (self.score / len(self.questions)) * 100
-        msg = f"✅ Ergebnis: {self.score} / {len(self.questions)}\n🧮 Percentage: {percentage:.1f}%"
+        msg = f"✅ Ergebnis: {self.score} / {len(self.questions)}\n🧮 Prozent: {percentage:.1f}%"
 
         if percentage == 100:
             msg += "\n🎉 Perfekt!"
