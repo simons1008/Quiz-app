@@ -1,0 +1,102 @@
+[
+    {
+        "question": "Welches Schlüsselwort definiert eine Klasse in Python?",
+        "options": {
+            "A": "Klaas",
+            "B": "Klasse",
+            "C": "class",
+            "D": "Class"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Was beschreibt eine Klasse in Python?",
+        "options": {
+            "A": "den Bauplan für ein Objekt",
+            "B": "ein Objekt",
+            "C": "eine Instanz",
+            "D": "einen Wert"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Mit welcher Methode beginnt die Klassendefinition?",
+        "options": {
+            "A": "def init(self)",
+            "B": "init(self)",
+            "C": "__init(self)__",
+            "D": "def __init__(self)"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Wozu benötigt eine Methode den Parameter self?",
+        "options": {
+            "A": "self bekommt den Objektnamen",
+            "B": "self bekommt eine Eigenschaft des Objekts",
+            "C": "self bekommt nichts, ist aber notwendig",
+            "D": "self ist nicht notwendig"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Welche Zeile erzeugt die Eigenschaft rufname?",
+        "options": {
+            "A": "rufname",
+            "B": "rufname()",
+            "C": "self.rufname",
+            "D": "self.rufname = rufname"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Die Klasse Hund hat die Eigenschaft rufname. Erstelle ein Objekt der Klasse mit dem Rufnamen 'Bello'!",
+        "options": {
+            "A": "hund_bello = Hund()",
+            "B": "hund_bello = Hund('Bello')",
+            "C": "hund_bello()",
+            "D": "hund_bello"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Die Eltern-Klasse der Klasse Hund ist Tier. Welche Zeile ist richtig?",
+        "options": {
+            "A": "class Hund(Tier):",
+            "B": "class Hund:Tier",
+            "C": "class Tier:Hund",
+            "D": "class Tier(Hund)"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Die Kind-Klasse soll über die Eltern-Klasse initialisiert werden. Welche Zeile ist richtig?",
+        "options": {
+            "A": "super().__init__(self, rufname)",
+            "B": "super(self).__init__(rufname)",
+            "C": "super().__init__(rufname)",
+            "D": "super().__init__()"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Wie kann die Kind-Klasse die Eltern-Klasse erweitern?",
+        "options": {
+            "A": "neue Methode",
+            "B": "neue Eigenschaft",
+            "C": "neue Methode und neue Eigenschaft",
+            "D": "die Kind-Klasse kann nicht erweitern"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Was folgt, wenn die neue Methode der Kind-Klasse genauso heißt wie eine Methode der Eltern-Klasse?",
+        "options": {
+            "A": "Methode der Eltern-Klasse wird überschrieben",
+            "B": "Error",
+            "C": "Methode der Kind-Klasse wird überschrieben",
+            "D": "Zwei Methoden mit unterschiedlichem Verhalten"
+        },
+        "answer": "A"
+    }
+]
