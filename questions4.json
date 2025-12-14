@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Welche grundlegenden Fähigkeiten hat das Python-Objekt Turtle?",
+        "options": {
+            "A": "backward(x), forward(x)",
+            "B": "forward(x), left(a), right(a), penup(), pendown()",
+            "C": "say(str), move(x), turn_left(a)",
+            "D": "werfen, springen, laufen"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Zeichne ein gefülltes Quadrat. Welche Turtle-Befehle benötigst du?",
+        "options": {
+            "A": "for i in range(4):",
+            "B": "square(str)",
+            "C": "color(str)",
+            "D": "begin_fill(), forward(x), right(a), end_fill()"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "In welchen Python-Datentyp passt ein Irrgarten mit 11 Zeilen und 22 Spalten.",
+        "options": {
+            "A": "Liste von Listen",
+            "B": "Liste",
+            "C": "Maze",
+            "D": "Es gibt keinen passenden Python-Datentyp"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Beschreibe die Irrgarten-Datei.",
+        "options": {
+            "A": "Textdatei mit +, Leerzeichen, S",
+            "B": "Textdatei mit Zahlen",
+            "C": "Textdatei mit +, Leerzeichen, S, Zeilenumbruch",
+            "D": "Binärdatei mit Zahlen"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Wie sind die Zeilennummern der 'Liste von Listen' definiert?",
+        "options": {
+            "A": "0 oben, 10 unten. Turtle-Fenster umgekehrt.",
+            "B": "10 oben, 0 unten. Turtle-Fenster umgekehrt.",
+            "C": "0 oben, 10 unten. Turtle-Fenster genauso.",
+            "D": "10 oben, 0 unten. Turtle-Fenster genauso."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Welcher Turtle-Befehl entdeckt den Zusammenstoß mit einer Wand?",
+        "options": {
+            "A": "Turtle-Befehl distance(x, y)",
+            "B": "Beim Zusammenstoß gibt es eine Fehlermeldung.",
+            "C": "Es gibt keinen Turtle-Befehl dafür.",
+            "D": "Ein Zusammenstoß ist ausgeschlossen. "
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Mit welcher Methode findet die Turtle aus einem einfach zusamenhängenden Irrgarten?",
+        "options": {
+            "A": "Mit der Zwei-Hand-Methode",
+            "B": "Mit der Hand-und-Fuß-Methode",
+            "C": "Mit der Rechte-Hand-Methode",
+            "D": "Es gibt keine Methode dafür"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Mit welchem Algorithmus findet die Turtle aus jedem zweidimensionalen Irrgarten?",
+        "options": {
+            "A": "Mit dem Plumps-Algorithmus",
+            "B": "Mit dem Pledge-Algorithmus",
+            "C": "Mit dem Gauß-Algorithmus",
+            "D": "Mit der Rechte-Hand-Methode"
+        },
+        "answer": "B"
+    }
+]
