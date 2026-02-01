@@ -44,7 +44,7 @@
         "options": {
             "A": "x = 0 und y = 0 liegen oben links",
             "B": "x = 0 und y = 0 liegen unten links",
-            "C": "x = 0 und y = 0 oben rechts",
+            "C": "x = 0 und y = 0 liegen oben rechts",
             "D": "x = 0 und y = 0 sind nicht festgelegt"
         },
         "answer": "A"
