@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Was ist pygame?",
+        "options": {
+            "A": "ein Computerspiel",
+            "B": "eine Programmiersprache",
+            "C": "Bibliothek zur Programmierung von Spielen",
+            "D": "ein Python-Befehl"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Mit welcher pygame-Funktion erzeugst du ein Grafik-Fenster?",
+        "options": {
+            "A": "pygame.display.set_mode()",
+            "B": "pygame.init()",
+            "C": "tk.Tk()",
+            "D": "turtle.Screen()"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Mit welcher pygame-Funktion lädst du ein Bild?",
+        "options": {
+            "A": "tk.PhotoImage()",
+            "B": "pygame.image.load()",
+            "C": "pygame.Surface.get_rect()",
+            "D": "screen.addshape()"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Wie heißt ein Spiel-Objekt in pygame?",
+        "options": {
+            "A": "Fanta",
+            "B": "Widget",
+            "C": "Alien",
+            "D": "Sprite"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Wo liegen bei pygame die Fenster-Koordinaten x = 0 und y = 0?",
+        "options": {
+            "A": "x = 0 und y = 0 liegen oben links",
+            "B": "x = 0 und y = 0 liegen unten links",
+            "C": "x = 0 und y = 0 oben rechts",
+            "D": "x = 0 und y = 0 sind nicht festgelegt"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Welche Funktion liefert den Zustand aller gedrückten Tasten?",
+        "options": {
+            "A": "input()",
+            "B": "pygame.key.get_pressed()",
+            "C": "screen.textinput()",
+            "D": "when key <key> pressed"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Mit welchen Funktionen bewegst du ein Sprite über den Bildschirm",
+        "options": {
+            "A": "move <number> steps",
+            "B": "t.forward()  t.right()",
+            "C": "Rect.move_ip() screen.blit()",
+            "D": "Rect.move_ip() screen.blit() display.update() "
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Mit welchem Befehl entdeckt pygame eine Kollision zwischen Sprites?",
+        "options": {
+            "A": "pygame.sprite.spritecollideany()",
+            "B": "if touching sprite1 then",
+            "C": "if abs(x1 - x2) < 25 and abs(y1 - y2) < 25:",
+            "D": "pygame erkennt keine Kollision zwischen Sprites"
+        },
+        "answer": "A"
+    }
+]

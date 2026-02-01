@@ -18,7 +18,7 @@ class QuizApp:
 
     def load_questions(self):
         try:
-            with open("questions4.json", "r", encoding="utf-8") as f:
+            with open("questions5.json", "r", encoding="utf-8") as f:
                 self.questions = json.load(f)
         except Exception as e:
             messagebox.showerror("Fehler", f"Die Fragen konnten nicht geladen werden: {e}")
