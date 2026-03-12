@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Was ist MicroPython?",
+        "options": {
+            "A": "eine Python IDE",
+            "B": "ein Mikrocontroller",
+            "C": "eine schlanke Implementierung von Python 2",
+            "D": "eine schlanke Implementierung von Python 3"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Das ESP32-Modul enthält eine(n)",
+        "options": {
+            "A": "Summer",
+            "B": "CPU mit 16 GB RAM und 500 GB Flash",
+            "C": "Mikrocontroller mit 512 kB RAM und 4 MB Flash",
+            "D": "Liquid Crystal Display (LCD)"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Welche IDE lädt ein Programm auf den ESP32?",
+        "options": {
+            "A": "Thonny",
+            "B": "Sonny",
+            "C": "IDLE",
+            "D": "Fleissig"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Was muss bei der Verdrahtung eines Experiments beachtet werden?",
+        "options": {
+            "A": "ESP32 USB-Kabel vom PC trennen",
+            "B": "Thonny beenden",
+            "C": "Nur kurze Kabel verwenden",
+            "D": "Kabel mit der passenden Farbe verwenden"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Warum dürfen eine Diode und ein Transistor nur über einen Widerstand angesteuert werden?",
+        "options": {
+            "A": "Ohne Widerstand ist die LED zu dunkel",
+            "B": "Ohne Widerstand ist die LED zu hell",
+            "C": "Der Widerstand erhöht den Strom",
+            "D": "Der Widerstand begrenzt den Strom"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Welche Bibliothek enthält Funktionen zum Zugriff auf die Hardware?",
+        "options": {
+            "A": "GPIO",
+            "B": "machine",
+            "C": "math",
+            "D": "random"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Was ist der Unterschied zwischen einem aktiven und einem passiven Summer?",
+        "options": {
+            "A": "Der aktive Summer kann eine Melodie ausgeben",
+            "B": "Der passive Summer wird mit PWM angesteuert",
+            "C": "Es gibt keinen Unterschied",
+            "D": "Der aktive Summer wird mit Pin.IN angesteuert"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Wodurch unterscheiden sich Hinderniserkennung und Distanzmessung?",
+        "options": {
+            "A": "Die Hinderniserkennung gibt die Entfernung an",
+            "B": "Die Hinderniserkennung benötigt einen Trigger",
+            "C": "Die Distanzmessung sendet Ultraschall-Signale",
+            "D": "Die Distanzmessung sendet Infrarot-Signale"
+        },
+        "answer": "C"
+    }
+]
